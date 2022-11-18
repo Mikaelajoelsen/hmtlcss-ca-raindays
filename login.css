@@ -75,17 +75,12 @@ input[type="Login"] {
   border: solid black;
 }
 
-.login-email {
+button {
   display: flex;
   margin: auto;
-  padding: 3vw 2vh;
-  flex-direction: column;
-  gap: 1vh;
-  max-width: 200px;
-  max-height: 40px;
-  text-align: center;
-  font-size: 20px;
   font-family: monospace;
+  font-size: 25px;
+  background-color: rgb(159, 173, 173);
 }
 
 .register {
