@@ -1,0 +1,165 @@
+body {
+  font-family: monospace;
+  background-image: none;
+}
+
+.faded-bodybackground {
+  position: relative;
+}
+
+.faded-bodybackground:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/snø-fjell.jpg);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+header {
+  background-color: rgb(192, 220, 220);
+  width: 100%;
+  padding: 0 5px;
+}
+
+.logo-searchbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  display: flex;
+  font-size: 35px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  color: #000;
+}
+
+.card {
+  flex: 1;
+  max-width: 555px;
+  min-width: 300px;
+}
+
+.image-row {
+  padding: 1em;
+}
+
+.image-container {
+  border-radius: 8px;
+  position: relative;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 87%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(201, 228, 224);
+  z-index: 100;
+  border-radius: 40px;
+}
+
+.image-container img {
+  position: relative;
+  max-width: 100%;
+  z-index: 200;
+}
+
+.back {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  margin: 30px;
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: row;
+}
+.container-cart {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  justify-content: center;
+}
+
+.checkout {
+  display: flex;
+  flex: 1;
+}
+
+.checkout_fav-button {
+  flex: 1;
+  background-color: rgb(222, 237, 237);
+  padding: 0 2px;
+  height: 45px;
+}
+
+.select-size {
+  background-color: rgb(222, 237, 237);
+  font-size: 25px;
+  padding: 0 5px;
+}
+
+.checkout-controls {
+  display: flex;
+  margin-top: 10px;
+  gap: 4px;
+}
+
+.add-to {
+  background-color: rgb(222, 237, 237);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+}
+
+.add-to a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+
+.free {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(222, 237, 237);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.free a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(184, 174, 174);
+}

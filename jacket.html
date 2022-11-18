@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="jacket.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header class="header--with-navbar">
+      <div class="logo-searchbar">
+        <img class="logo" src="/assets/RainyDays_Logo.png" />
+        <input class="searchbar" type="text" placeholder="Search.." />
+        <div>
+          <a class="login" href="login.html">Login</a>
+          <ion-icon class="cart" name="cart-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="navbar">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="clothes.html">Men</a></li>
+          <li><a href="clothes.html">Women</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Orange Jacket</h1>
+      <div class="bread-crumbs">
+        <a class="back" href="clothes.html"
+          ><ion-icon name="arrow-back-outline"></ion-icon>Go back</a
+        >
+      </div>
+      <div class="parent-container">
+        <div class="card">
+          <div class="image-row">
+            <div class="image-container">
+              <img src="./assets/RainyDays_Jacket1.png" alt="A jacket" />
+            </div>
+          </div>
+        </div>
+        <form class="checkout">
+          <div class="container-cart">
+            <select class="select-size">
+              <option value="default">Select Size</option>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+            </select>
+            <div class="checkout-controls">
+              <div class="button add-to">
+                <a href="clothes.html">Add to cart</a>
+                <ion-icon name="bag-outline"></ion-icon>
+              </div>
+              <button class="button checkout_fav-button">
+                <ion-icon name="heart-outline"></ion-icon>
+              </button>
+            </div>
+
+            <div class="free">
+              <a href="clothes.html" class="button"
+                >Free delivery <ion-icon name="checkmark-outline"></ion-icon
+              ></a>
+
+              <a href="clothes.html" class="button"
+                >Free Return <ion-icon name="checkmark-outline"></ion-icon
+              ></a>
+
+              <a href="clothes.html" class="button"
+                >Home delivery <ion-icon name="checkmark-outline"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
