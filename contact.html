@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body class="faded-bodybackground">
+    <header class="header--with-navbar">
+        <div class="logo-searchbar" >
+        <img class="logo" src="/assets/RainyDays_Logo.png" />
+        <input class="searchbar" type="text" placeholder="Search..">
+        <div>
+            <a class="login" href="login.html">Login</a>
+            <ion-icon class="cart" name="cart-outline"></ion-icon>
+        </div>
+        </div>
+        <div class="navbar">
+        <ul class="links">   
+              <li><a href="index.html">Home</a></li>
+              <li><a href="clothes.html">Men</a></li>
+              <li><a href="clothes.html">Women</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>  
+        </div>
+        </div>
+    </header>
+    <main>
+        <h1>Contact Information</h1>
+        <form>
+            <label for="Name">Name (required):</label> 
+            <input type="Name" name="Name (required)" value="" id="Name" />
+            <label for="Email">Email (required):</label> 
+            <input type="Email" name="Email (required)" value="" id="Email" />
+            <label class="reason" for="Reason for contact">Reason for contact:</label> 
+            <input class="reason" type="Reason for contact" name="Reason for contact" value="" id="Name" />
+            <label class="message" for="Message">Message:</label> 
+            <input class="Message" type="Message" name="Message" value="" id="Name" />  
+            <button type="button">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

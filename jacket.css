@@ -1,0 +1,99 @@
+body {
+  background-color: #fff;
+}
+header {
+  background-color: rgb(192, 220, 220);
+  width: 100%;
+  padding: 0 5px;
+}
+
+.logo-searchbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  display: flex;
+  font-size: 35px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  color: #000;
+}
+
+.card {
+  flex: 1;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.image-row {
+  padding: 1em;
+}
+
+.image-container {
+  border-radius: 8px;
+  position: relative;
+}
+
+.image-container::before {
+  display: flex;
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 87%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(201, 228, 224);
+  z-index: 100;
+  border-radius: 40px;
+}
+
+.image-container img {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  z-index: 200;
+}
+
+.content-row {
+  display: flex;
+  justify-content: center;
+}
+
+.price-col {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.product-name {
+  display: flex;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,65 @@
+body {
+  font-family: monospace;
+  background-image: none;
+}
+
+.faded-bodybackground {
+  position: relative;
+}
+
+.faded-bodybackground:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/snø-fjell.jpg);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+header {
+  background-color: rgb(192, 220, 220);
+  width: 100%;
+  padding: 0 5px;
+}
+
+.logo-searchbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  display: flex;
+  font-size: 35px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  color: #000;
+}
+
+p {
+  display: flex;
+  margin: auto;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: justify;
+  max-width: 600px;
+}
+
+.information {
+  display: flex;
+  margin: auto;
+  background-color: rgb(191, 213, 213);
+  opacity: 70%;
+  max-width: 60%;
+  max-height: 450px;
+}

@@ -1,0 +1,15 @@
+header {
+width: 100%;
+  min-height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  background-image: url("../assets/hiking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
