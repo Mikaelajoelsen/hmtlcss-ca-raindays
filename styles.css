@@ -19,9 +19,11 @@ body {
 }
 
 .bg-hiking {
-  background-image: url(./assets/hiking.jpg);
+  background-image: url(./assets/fog.jpg);
   display: flex;
   flex-direction: column;
+  background-size: cover;
+  background-position: center center;
 }
 
 .home-main {
@@ -38,7 +40,7 @@ h1 {
   font-size: 50px;
   position: relative;
   font-family: monospace;
-  color: azure;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-align: center;
 }
@@ -51,7 +53,7 @@ h1 {
   font-size: 20px;
   font-family: monospace;
   text-decoration: none;
-  color: #000;
+  color: rgb(244, 235, 235);
   margin-top: 20px;
   margin-right: 30px;
 }
@@ -65,7 +67,7 @@ h1 {
   justify-content: center;
   font-size: 30px;
   font-family: sans-serif;
-  color: rgb(206, 233, 242);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -78,7 +80,7 @@ h1 {
   justify-content: center;
   font-size: 25px;
   font-family: sans-serif;
-  color: rgb(206, 233, 242);
+  color: rgb(40, 43, 44);
   text-decoration: none;
 }
 
@@ -106,18 +108,23 @@ body {
 header {
   width: 100%;
   padding: 0 5px;
+  height: 350px;
 }
 
 .header--with-navbar {
   display: block;
-  background-color: rgb(192, 220, 220);
-  width: 100% !important;
+  width: 100%;
+  background-image: url(/assets/mountain.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 3em;
   list-style: none;
   font-size: 15px;
   font-family: monospace;
@@ -129,7 +136,7 @@ header {
   flex: 1;
   text-align: center;
   max-width: 200px;
-  background-color: rgba(146, 211, 217, 0.864);
+  background-color: rgba(214, 218, 219, 0.864);
   border-radius: 3em;
   /*padding: 0.2em 4em;*/
   border: 1px solid #fff;
@@ -143,6 +150,7 @@ header {
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 30px;
+  filter: brightness(2);
 }
 
 .logo img {
@@ -156,12 +164,13 @@ header {
 
 .searchbar {
   margin: auto;
-  width: 600px;
+  width: 800px;
   min-width: 100px;
-  background-color: rgb(207, 241, 241);
+  background-color: rgb(176, 181, 181);
   border: 1px solid #fff;
   border-radius: 50px;
   padding: 1em;
+  font-size: 20px;
 }
 
 .button {
@@ -174,4 +183,8 @@ header {
   .logo-searchbar .logo {
     display: none;
   }
+}
+
+.header-clothes {
+  font-size: 50px;
 }

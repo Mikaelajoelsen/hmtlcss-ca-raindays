@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-color: rgb(192, 220, 220);
+  background-color: rgb(0, 0, 0);
   width: 100%;
   padding: 0 5px;
 }
@@ -58,13 +58,13 @@ form {
 
 input {
   min-height: 65px;
-  background-color: rgb(208, 234, 234);
+  background-color: rgb(118, 113, 113);
 }
 
 input[type="Email"] {
   background: #fff;
   border: solid black;
-  background-color: rgb(208, 234, 234);
+  background-color: rgb(89, 93, 93);
 }
 
 input[type="Password"] {
@@ -105,5 +105,5 @@ button {
   margin: auto;
   font-family: monospace;
   font-size: 25px;
-  background-color: rgb(181, 242, 242);
+  background-color: rgb(250, 255, 255);
 }

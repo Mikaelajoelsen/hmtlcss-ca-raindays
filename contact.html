@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="/css/contact.css" />
+    <script type="module" defer src="/contact.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -53,31 +54,35 @@
     </script>
     <main>
       <h1>Contact Information</h1>
-      <form>
-        <label for="Name">Name (required):</label>
-        <input type="Name" name="Name (required)" value="" id="Name" />
-        <label for="Email">Email (required):</label>
-        <input type="Email" name="Email (required)" value="" id="Email" />
-        <label class="reason" for="Reason for contact"
-          >Reason for contact:</label
-        >
-        <input
-          class="reason"
-          type="Reason for contact"
-          name="Reason for contact"
-          value=""
-          id="Name"
-        />
-        <label class="message" for="Message">Message:</label>
-        <input
-          class="Message"
-          type="Message"
-          name="Message"
-          value=""
-          id="Name"
-        />
-        <button type="button">Submit</button>
-      </form>
+      <div class="back-button">
+        <a href="index.html">Go back</a>
+      </div>
+
+      <div class="contact-info">
+        <form class="contact-main" id="js-form-contact" autocomplete="off">
+          <label for="name">Name:</label>
+          <input id="js-name" name="name" />
+          <p class="validationerror" id="nameerrormsg">
+            Please enter your name above (can only contain letters).
+          </p>
+          <label for="email">Email:</label>
+          <input id="js-email" name="email" />
+          <p class="validationerror" id="mailerrormsg">
+            Please enter a correct email above (test@test.com).
+          </p>
+          <label for="Adress">Adress:</label>
+          <input type="Adress" id="js-adress" name="adress" />
+          <p class="validationerror" id="addresserrormsg">
+            Please enter your address above.
+          </p>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="js-birthday" name="js-birthday" />
+          <p class="validationerror" id="dateerrormsg">
+            Please enter a valid birth date.
+          </p>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </main>
   </body>
 </html>
