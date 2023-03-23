@@ -71,8 +71,18 @@ h1 {
   text-decoration: none;
 }
 
+.shop :hover {
+  font-size: 50px;
+  color: rgb(97, 97, 97);
+}
+
 .shop-about {
   list-style: none;
+}
+
+.shop-about :hover {
+  font-size: 50px;
+  color: rgb(97, 97, 97);
 }
 
 .shop-about a {

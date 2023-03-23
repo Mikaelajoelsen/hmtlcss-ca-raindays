@@ -93,3 +93,8 @@ img {
 .all-content {
   display: grid;
 }
+
+.cart {
+  color: white;
+  font-size: 56px;
+}

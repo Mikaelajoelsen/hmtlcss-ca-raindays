@@ -71,9 +71,10 @@ h1 {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: rgb(201, 228, 224);
+  background-color: rgba(187, 176, 176, 0.311);
+  opacity: 1;
+  border: solid rgb(220, 220, 220);
   z-index: 100;
-  border-radius: 40px;
 }
 
 .image-container img {
@@ -113,15 +114,18 @@ h1 {
 
 .checkout_fav-button {
   flex: 1;
-  background-color: rgb(222, 237, 237);
+  background-color: rgb(96, 97, 113);
   padding: 0 2px;
   height: 45px;
+  color: #fff;
+  font-size: 35px;
 }
 
 .select-size {
-  background-color: rgb(222, 237, 237);
+  background-color: rgb(96, 97, 113);
   font-size: 25px;
   padding: 0 5px;
+  color: #fff;
 }
 
 .checkout-controls {
@@ -131,7 +135,7 @@ h1 {
 }
 
 .add-to {
-  background-color: rgb(222, 237, 237);
+  background-color: rgb(96, 97, 113);
   text-decoration: none;
   font-family: monospace;
   font-size: 25px;
@@ -145,13 +149,13 @@ h1 {
 .add-to a {
   list-style: none;
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .free {
   display: flex;
   flex-direction: column;
-  background-color: rgb(222, 237, 237);
+  background-color: rgb(96, 97, 113);
   text-decoration: none;
   font-family: monospace;
   font-size: 25px;
@@ -162,4 +166,9 @@ h1 {
   list-style: none;
   text-decoration: none;
   color: rgb(184, 174, 174);
+}
+
+.cart {
+  color: #fff;
+  font-size: 56px;
 }
