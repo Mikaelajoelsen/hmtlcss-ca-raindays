@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(104, 100, 100, 0.436);
+  min-height: 200px;
+}
+
+.social-links a {
+  margin: 0 50px 50px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 200%;
+  transition: all 0.5 ease;
+  font-size: 50px;
+}
+
+.social-links a:hover {
+  color: rgb(17, 0, 102);
+  font-size: 70px;
+}
