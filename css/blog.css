@@ -1,0 +1,60 @@
+h2 {
+  font-size: 40px;
+}
+
+.card-section {
+  display: flex;
+  margin: 1em;
+  border-radius: 1em;
+  flex-wrap: wrap;
+  /* margin-top: 50px; */
+}
+
+/* Card component */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-width: 400px;
+  text-decoration: none;
+  background-color: black;
+  padding: 1.25rem;
+  color: white;
+  margin: 16px;
+  border: 5px solid rgba(111, 118, 119, 0.709);
+}
+
+.container:hover {
+  background-color: rgba(204, 154, 218, 0.709);
+  color: black;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 16px;
+  margin-bottom: 0.75rem;
+  color: var(--grey);
+  font-weight: bold;
+}
+
+.image {
+  height: 150px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.search-options {
+  display: flex;
+  justify-content: center;
+  border-width: 0;
+  border-radius: 20px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

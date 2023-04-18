@@ -1,4 +1,4 @@
-html {
+€html {
   box-sizing: border-box;
 }
 html:focus-within {
@@ -124,21 +124,17 @@ header {
 .header--with-navbar {
   display: block;
   width: 100%;
-  background-image: url(/assets/mountain.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 3em;
   list-style: none;
-  font-size: 15px;
+  font-size: 20px;
   font-family: monospace;
   padding-bottom: 10px;
+  padding: 0;
 }
 
 .links li {
@@ -146,14 +142,15 @@ header {
   flex: 1;
   text-align: center;
   max-width: 200px;
-  background-color: rgba(214, 218, 219, 0.864);
   border-radius: 3em;
   /*padding: 0.2em 4em;*/
   border: 1px solid #fff;
+  flex-wrap: wrap;
 }
 
 .logo {
-  display: inline-block;
+  display: flex;
+  justify-items: center;
   list-style: none;
   height: 100px;
   width: 250px;
@@ -197,4 +194,8 @@ header {
 
 .header-clothes {
   font-size: 50px;
+}
+
+.different-jackets {
+  border: 2px solid black;
 }

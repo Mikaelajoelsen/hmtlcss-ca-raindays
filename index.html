@@ -20,7 +20,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rainy Days</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link
@@ -44,5 +44,16 @@
         <li><a href="about.html">About Us</a></li>
       </div>
     </main>
+    <script>
+      const options = { method: "GET" };
+
+      fetch(
+        "https://mikaelajoelsen.flywheelsites.com/wp-json/wp/v2/posts/",
+        options
+      )
+        .then((response) => response.json())
+        .then((response) => console.log(response))
+        .catch((err) => console.error(err));
+    </script>
   </body>
 </html>

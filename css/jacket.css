@@ -19,12 +19,6 @@ body {
   z-index: -1;
 }
 
-header {
-  background-color: rgb(192, 220, 220);
-  width: 100%;
-  padding: 0 5px;
-}
-
 .logo-searchbar {
   display: flex;
   flex-direction: row;

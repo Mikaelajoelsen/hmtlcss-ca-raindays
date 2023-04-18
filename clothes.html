@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Hotjar Tracking Code for RainyDays -->
-    <script>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/clothes.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+     <!-- Hotjar Tracking Code for RainyDays -->
+     <script>
       (function (h, o, t, j, a, r) {
         h.hj =
           h.hj ||
@@ -17,44 +32,42 @@
         a.appendChild(r);
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
-    <meta name="viewport" content="width=device-width" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="/css/clothes.css" />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
   </head>
   <body>
     <header class="header--with-navbar">
-      <div class="logo-searchbar">
-        <img class="logo" src="/assets/RainyDays_Logo.png" />
-        <input class="searchbar" type="text" placeholder="Search.." />
-        <div>
-          <a class="login" href="login.html">Login</a>
+      <img class="logo" src="/assets/RainyDays_Logo.png" />
           <ion-icon class="cart" name="cart-outline"></ion-icon>
-        </div>
-      </div>
       <div class="navbar">
         <ul class="links">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="clothes.html">Men</a></li>
           <li><a href="clothes.html">Women</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
         </ul>
       </div>
-    </header>
+      <div class="logo-searchbar">
+        <input class="searchbar" type="text" placeholder="Search.." />
+        <div>
+        </header>
     <main>
       <div class="header-clothes">
         <h2 class="what-towear">What to wear</h2>
+      <div class="info-main">
+        <p class="text-main">
+          Explore rainjackets for both women and men. All designs, including long rain jackets and coats. Our jackets are also windproof and can be used in al sort of weather.
+        </p>
       </div>
+    </div>
+    <div class="different-jackets">
+      <ul class="links">
+        <li><a href="index.html">Parkas</a></li>
+        <li><a href="index.html">Bomber Jackets</a></li>
+        <li><a href="index.html">Fleece</a></li>
+        <li><a href="index.html">Vests</a></li>
+        <li><a href="index.html">Coats</a></li>
+      </ul>    
+    </div>
       <section class="product-list">
         <div class="card">
           <div class="image-row">
@@ -259,5 +272,48 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
