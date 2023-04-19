@@ -2,15 +2,8 @@ h2 {
   font-size: 40px;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 60px;
-}
-
 .card-section {
   display: flex;
-  justify-content: center;
   margin: 1em;
   border-radius: 1em;
   flex-wrap: wrap;
@@ -19,23 +12,18 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  max-width: 400px;
+  flex-wrap: wrap;
+  max-width: 800px;
   text-decoration: none;
-  background-color: black;
+  background-color: rgb(53, 50, 50);
   padding: 1.25rem;
   color: white;
   margin: 16px;
   border: 5px solid rgba(0, 0, 0, 0.709);
 }
 
-.container:hover {
-  background-color: rgba(255, 88, 66, 0.709);
-  color: black;
-}
-
 .container p {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .name {
@@ -49,13 +37,6 @@ h1 {
   height: 150px;
   background-size: cover;
   background-position: center top;
-}
-
-.search-options {
-  display: flex;
-  justify-content: center;
-  border-width: 0;
-  border-radius: 20px;
 }
 
 .card-details {

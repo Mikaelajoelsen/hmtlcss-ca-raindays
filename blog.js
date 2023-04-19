@@ -25,7 +25,7 @@ function makeCards(postsArray) {
     cardContainer.innerHTML += `
       <a href="details.html?id=${post.id}" class="container">
         <h2>${post.title.rendered}</h2>
-        <p class="Tilte">Posts:${post.excerpt.rendered}</p>
+        <p class="Tilte">${post.excerpt.rendered}</p>
       </a>
     `;
   });
