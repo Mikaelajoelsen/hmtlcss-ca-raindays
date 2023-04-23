@@ -9,7 +9,7 @@ console.log(detailContainer);
 
 const id = params.get("id");
 
-const url = `http://courseassingment.local/wp-json/wp/v2/posts/${id}`;
+const url = `http://mikaelajoelsen.flywheelsites.com//wp-json/wp/v2/posts/${id}`;
 
 console.log(id);
 
