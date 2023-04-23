@@ -1,6 +1,6 @@
 const detailContainer = document.querySelector("#js-results");
 
-const url = "http://mikaelajoelsen.flywheelsites.com//wp-json/wp/v2/posts";
+const url = "https://mikaelajoelsen.flywheelsites.com//wp-json/wp/v2/posts";
 
 async function fetchresults() {
   try {
